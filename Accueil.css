@@ -1,0 +1,82 @@
+#popModal {
+    width:100%;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0;
+    top:40%;
+}
+
+p {
+
+    text-align:center;
+
+}
+
+h2 {
+    font-family: "DINB","Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.container-groupe {
+
+    height: 80vh;
+    background-image: url("https://legendiaparc.com/wp-content/uploads/2017/03/legendiaparc-page-groupe-visuel.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size : 300%;
+    color : white;
+}
+
+.container-partenariats {
+
+    height: 80vh;
+    background-image: url("../sitedepromo/image/Logo partenaires.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    padding-top: 0;
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color : white;
+}
+
+
+
+
+.container-chiffres {
+}
+
+#compteur {
+
+    background-color: #F2F9F9;
+}
+
+.onepage-section {
+
+    position: relative;
+    overflow: hidden; }
+
+.section-padding {
+
+    padding: 70px 0px;
+    padding: 4.375rem 0rem;
+
+}
+
+
