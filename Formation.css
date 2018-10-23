@@ -41,13 +41,14 @@
 }
 
 #imgtechnologies {
-    border: #eb905f solid;
+    border: #29898f solid;
     border-radius: 20px;
-    color: #29898f;
+    background-color: #29898f;
+    color: white;
 }
 
 #JS {
-    width: 80px;
+    width: 110px;
 }
 
 #HTML {
@@ -64,4 +65,56 @@
 
 #BootStrap {
     width: 120px;
+}
+
+#GitHub {
+    width: 90px;
+}
+
+#MySQL {
+    width: 150px;
+}
+
+#WordPress {
+    width: 80px;
+}
+
+#NomJS {
+    margin-left: 15px;
+}
+
+#NomHTML {
+    margin-left: 9px;
+}
+
+#NomCSS {
+    margin-left: 25px;
+}
+
+#NomPHP {
+    margin-left: 37px;
+}
+
+#NomBootStrap {
+    margin-left: 20px;
+}
+
+#NomGitHub {
+    margin-left: 20px;
+}
+
+#NomMySQL {
+    margin-left: 50px;
+}
+
+#imgWord {
+    left: 15px;
+}
+
+#Angular {
+    width: 80px;
+}
+
+#Symfony {
+    width: 90px;
 }
