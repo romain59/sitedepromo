@@ -1,0 +1,31 @@
+.containerFooter {
+    background-color: #29898F !important;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+#boutonRetour{
+        margin: 10px;
+        text-align: right !important;
+}
+
+#logoFace, #logoFup {
+    border-radius: 5px;
+}
+
+#contactFooter {
+    font-size: 18px;
+    color: #29898F;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#mentionlegale {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center !important;
+    margin: 0 auto;
+    margin-top: 30px;
+}
