@@ -75,16 +75,12 @@
     width: 150px;
 }
 
-#WordPress {
-    width: 80px;
-}
-
 #NomJS {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 #NomHTML {
-    margin-left: 9px;
+    margin-left: 7px;
 }
 
 #NomCSS {
@@ -96,7 +92,7 @@
 }
 
 #NomBootStrap {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 #NomGitHub {
@@ -107,8 +103,8 @@
     margin-left: 50px;
 }
 
-#imgWord {
-    left: 15px;
+#WordPress {
+    width: 80px;
 }
 
 #Angular {
@@ -117,4 +113,15 @@
 
 #Symfony {
     width: 90px;
+    margin-left: 5px;
+}
+
+#Jquery {
+    width: 80px;
+    margin-left: 25px;
+}
+
+#Ubuntu {
+    width: 80px;
+    margin-left: 15px;
 }
