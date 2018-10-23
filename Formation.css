@@ -1,0 +1,67 @@
+#programme {
+    color: #29898f;
+    border: solid #eb905f;
+    border-radius: 20px;
+}
+
+#fleche1 {
+    width: 50px;
+}
+
+#textprogramme {
+    background: #29898f;
+    border: #29898f solid;
+    border-radius: 20px;
+}
+
+#text1 {
+    color: white;
+}
+
+#fleche2 {
+    width: 50px;
+}
+
+#text2 {
+    color: white;
+}
+
+#fleche3 {
+    width: 50px;
+}
+
+#text3{
+    color: white;
+}
+
+#technologies {
+    color: #29898f;
+    border: solid #eb905f;
+    border-radius: 20px;
+}
+
+#imgtechnologies {
+    border: #eb905f solid;
+    border-radius: 20px;
+    color: #29898f;
+}
+
+#JS {
+    width: 80px;
+}
+
+#HTML {
+    width: 80px;
+}
+
+#CSS {
+    width: 80px;
+}
+
+#PHP {
+    width: 100px;
+}
+
+#BootStrap {
+    width: 120px;
+}
