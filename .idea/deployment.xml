@@ -2,14 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="JS1exo">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="files.000webhost.com">
+      <paths name="ftp_000webhost">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

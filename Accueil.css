@@ -1,3 +1,13 @@
+html {
+}
+
+
+body {
+
+
+}
+
+
 #popModal {
     width:100%;
     position:fixed;
@@ -8,13 +18,33 @@
 }
 
 p {
-
     text-align:center;
+}
+
+h1 {
+    font-family: "DINB","Raleway", Helvetica, Arial, sans-serif;
+    color : #29898F;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top : 2%;
+    text-shadow: 0 1px 0 #eee,
+    0 2px 0 #e5e5e5,
+    -1px 3px 0 #C8C8C8,
+    -1px 4px 0 #C1C1C1,
+    -2px 5px 0 #B9B9B9,
+    -2px 6px 0 #B2B2B2,
+    -2px 7px 2px rgba(0,0,0, 0.6),
+    -2px 7px 8px rgba(0,0,0, 0.2),
+    -2px 7px 45px rgba(0,0,0, 0.4);
 
 }
 
 h2 {
     font-family: "DINB","Raleway", Helvetica, Arial, sans-serif;
+    color : #29898F;
     font-weight: 800;
     position: relative;
     margin-bottom: 0px;
@@ -27,6 +57,22 @@ h2 {
 
     height: 80vh;
     background-image: url("https://legendiaparc.com/wp-content/uploads/2017/03/legendiaparc-page-groupe-visuel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 300%;
+    color : #29898F;
+    margin-bottom : 3%;
+}
+
+.container-partenariats {
+
+    height: 40vh;
+    background-image: url("image/logopartenaires.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 0;
@@ -34,49 +80,46 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size : 300%;
-    color : white;
 }
-
-.container-partenariats {
-
-    height: 80vh;
-    background-image: url("../sitedepromo/image/Logo partenaires.jpg");
-    background-size: cover;
-    background-repeat: repeat;
-    padding-top: 0;
-    background-blend-mode: color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    color : white;
-}
-
-
 
 
 .container-chiffres {
+    margin-bottom : 3%;
 }
 
-#compteur {
-
-    background-color: #F2F9F9;
+.container-presentation {
+    margin-bottom : 3%;
 }
 
-.onepage-section {
+/* Effet noir blanc en couleur */
 
-    position: relative;
-    overflow: hidden; }
+.container-groupe:hover  {
 
-.section-padding {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
 
-    padding: 70px 0px;
-    padding: 4.375rem 0rem;
+.container-groupe{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 
 }
 
+.container-partenariats:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.container-partenariats{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
+}
 

@@ -1,3 +1,8 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -48,6 +53,28 @@ a:hover {
     background-color: white;
 }
 
-.img {
+.img2 {
     border-radius: 5px;
 }
+
+/* Photo */
+
+#position {
+    margin-top: 10%;
+}
+
+.img {
+    border-radius: 10px;
+    filter: blur(5px);
+}
+
+.img:hover {
+    border-radius: 10px;
+    filter: none;
+}
+
+ .posit {
+     display: inline-block;
+     margin-right: 4%;
+     text-align: center;
+ }
