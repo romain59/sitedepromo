@@ -1,0 +1,2 @@
+
+$(function() {  $("#popModal").modal('show'); });
