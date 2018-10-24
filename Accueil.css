@@ -28,7 +28,7 @@ h1 {
     margin-bottom: 0px;
     text-transform: uppercase;
     text-align: center;
-    margin-top : 2%;
+    margin-top : 3%;
     text-shadow: 5px 5px 1px #29898F;
 
 }
@@ -58,6 +58,7 @@ h2 {
     font-size : 300%;
     color : #29898F;
     margin-bottom : 3%;
+
 }
 
 .container-partenariats {
@@ -71,15 +72,20 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:2%;
+    margin-bottom : -6%;
 }
 
 
 .container-chiffres {
     margin-bottom : 3%;
+    margin-top:3%;
 }
 
 .container-presentation {
     margin-bottom : 3%;
+    margin-top:3%;
+    text-align:center;
 }
 
 /* Effet noir blanc en couleur */
@@ -123,4 +129,21 @@ h2 {
 #compteur:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
+}
+
+#compteur {
+    font-size : 2em;
+    text-align: center;
+    align-items: center;
+    color : #EA844E;
+    margin-bottom : 3%;
+}
+
+.separator {
+
+    height:3px;
+    width:20%;
+    border:none;
+    box-shadow:none;
+    background-color: #EA844E;
 }
