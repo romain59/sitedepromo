@@ -6,7 +6,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-
 #popModal {
     width:100%;
     position:fixed;
@@ -19,6 +18,9 @@ body {
 p {
     text-align:center;
 }
+
+
+
 
 h1 {
     font-size : 2em;
@@ -131,13 +133,30 @@ h2 {
     transform: scale(1.3);
 }
 
-#compteur {
+span {
     font-size : 2em;
     text-align: center;
     align-items: center;
+    font-weight: bold;
     color : #EA844E;
     margin-bottom : 3%;
 }
+
+.counter__number {
+
+    text-align:center;
+}
+
+.counter_title {
+
+    font-size : 2em;
+    text-align: center;
+    align-items: center;
+    color : #29898F;
+    margin-bottom : 3%;
+
+}
+
 
 .separator {
 
