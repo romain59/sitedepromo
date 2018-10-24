@@ -102,3 +102,7 @@ h2 {
     box-shadow:none;
     background-color: #EA844E;
 }
+
+h2 {
+    font-weight: bold !important;
+}
