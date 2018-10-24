@@ -1,0 +1,64 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#text {
+    font-size : 2em;
+    color : WHITE;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top : 2%;
+    text-shadow: 5px 5px 1px #29898F;
+
+}
+
+.container-groupe:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.container-groupe{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
+}
+
+.container-partenariats:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.container-partenariats{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
+}
+
+.container-groupe {
+
+
+    height: 80vh;
+    background-image: url("bannieres/mainsOrange.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 300%;
+    color : white;
+    margin-bottom : 3%;
+}
+
