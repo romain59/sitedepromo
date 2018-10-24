@@ -1,56 +1,55 @@
 
 body {
+
     font-family: 'Titillium Web', sans-serif;
 }
 
-#text {
-    font-size : 2em;
-    color : WHITE;
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color : white;
     font-weight: 800;
+    font-size : 2em;
     position: relative;
     margin-bottom: 0px;
-    text-transform: uppercase;
     text-align: center;
     margin-top : 2%;
     text-shadow: 5px 5px 1px #29898F;
 
 }
 
-.container-groupe:hover  {
 
-    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%);
-    -webkit-transition:all 0.3s;
-    transition:all 0.3s;
-}
-
-.container-groupe{
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color : #29898F;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top : 3%;
 
 }
 
-.container-partenariats:hover  {
-
-    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%);
-    -webkit-transition:all 0.3s;
-    transition:all 0.3s;
+.container-qui {
+    margin-top : 3%;
+    margin-bottom: 3%;
+    text-align:center;
 }
 
-.container-partenariats{
 
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+.container-candidater {
+
+    margin-top: 3%;
+    margin-bottom : 3%;
+    text-align: center;
 
 }
 
-.container-groupe {
+
+.container-titre {
 
 
     height: 80vh;
-    background-image: url("bannieres/ethnicityOrange.jpg");
-    background-position: bottom;
+    background-image: url("bannieres/tableOrange.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 0;
@@ -63,44 +62,43 @@ body {
     margin-bottom : 3%;
 }
 
-#qui {
-    color: #29898f;
-    border: solid #eb905f;
-    border-radius: 20px;
+/* Effet noir blanc en couleur */
+
+.container-titre:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
 }
 
-#fleche1 {
-    width: 50px;
+.container-titre{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
 }
 
-#textqui {
-    background: #29898f;
-    border: #29898f solid;
-    border-radius: 20px;
+.container-titre:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
 }
 
-#text1 {
-    color: white;
+.container-titre{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
 }
 
-#fleche2 {
-    width: 50px;
-}
+.separator {
 
-#text2 {
-    color: white;
-}
-
-#fleche3 {
-    width: 50px;
-}
-
-#text3{
-    color: white;
-}
-
-#technologies {
-    color: #29898f;
-    border: solid #eb905f;
-    border-radius: 20px;
+    height:3px;
+    width:20%;
+    border:none;
+    box-shadow:none;
+    background-color: #EA844E;
 }
