@@ -124,3 +124,7 @@ body {
 #FB3 {
     text-decoration: underline white;
 }
+
+h2 {
+    font-weight: bold !important;
+}

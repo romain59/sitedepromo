@@ -18,14 +18,9 @@ h1 {
 
 }
 
-
-
-
-
-
-
-
-
+h2 {
+    font-weight: bold !important;
+}
 
 .container-titre {
     height: 80vh;
