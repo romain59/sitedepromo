@@ -4,6 +4,29 @@ body {
 
 /* Image */
 
+h1 {
+
+    font-family: 'Titillium Web', sans-serif;
+    color : white;
+    font-weight: 800;
+    font-size : 2em;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top : 2%;
+    text-shadow: 5px 5px 1px #29898F;
+
+}
+
+
+
+
+
+
+
+
+
+
 .container-titre {
     height: 80vh;
     background-image: url("bannieres/ordigroupeOrange.jpg");
@@ -19,20 +42,7 @@ body {
     margin-bottom : 3%;
 }
 
-h1 {
-    font-family: 'Titillium Web', sans-serif;
-    color : white;
-    font-weight: 800;
-    font-size : 2em;
-    position: relative;
-    margin-bottom: 0px;
 
-    text-align: center;
-    margin-top : 2%;
-    text-shadow: 5px 5px 1px #29898F;
-
-
-}
 
 /* Effet noir blanc en couleur */
 
