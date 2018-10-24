@@ -63,8 +63,6 @@ body {
 }
 
 #titreremerciements {
-    border-radius: 20px;
-    border: #eb905f solid;
     color: #29898f;
 }
 
@@ -72,6 +70,7 @@ body {
     border: #eb905f solid;
     border-radius: 20px;
     color: #29898f;
+
 }
 
 #img1 {
@@ -92,23 +91,36 @@ body {
     text-decoration: underline #29898f;
 }
 
-#CaseRemerciements2 {
+#CaseRemerciements3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
     background: #29898f;
     border: #29898f solid;
     border-radius: 20px;
     color: white;
 }
 
-#img2 {
-    height: 30px;
-}
-
-#CaseRemerciements3 {
+#CaseRemerciements2 {
     border: #eb905f solid;
     border-radius: 20px;
     color: #29898f;
+    margin-top: 5%;
 }
 
 #img3 {
     width: 140px;
+}
+
+#Nom3 {
+    font-size: 25px;
+    top: 10px;
+}
+
+#Para3 {
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+#FB3 {
+    text-decoration: underline white;
 }
