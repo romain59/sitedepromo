@@ -35,17 +35,33 @@
 
 <!-- POPUP -->
 
-<script type="text/javascript">
 
-    $(document).ready(function()
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Click Me
+</button>
 
-    {
-        $("id-popup").modal("show");
-    });
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">My First Bootstrap Modal</h4>
+            </div>
+            <div class="modal-body">
+                Content goes here
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="bootstrap.min.js"></script>
 
-</script>
 
 <!-- photo de groupe -->
 
