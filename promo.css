@@ -65,7 +65,7 @@ a:hover {
 
 .img {
     border-radius: 10px;
-    filter: blur(5px);
+    filter: grayscale(100%);
 }
 
 .img:hover {
@@ -77,4 +77,8 @@ a:hover {
      display: inline-block;
      margin-right: 4%;
      text-align: center;
+ }
+
+ h4 {
+     color: #ea844e;
  }
