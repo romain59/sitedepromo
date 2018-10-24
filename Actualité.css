@@ -1,0 +1,99 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.container-titre {
+    height: 80vh;
+    background-image: url("bannieres/newsOrange.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 300%;
+    color : white;
+    margin-bottom : 3%;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color : white;
+    font-weight: 800;
+    font-size : 2em;
+    position: relative;
+    margin-bottom: 0px;
+
+    text-align: center;
+    margin-top : 2%;
+    text-shadow: 5px 5px 1px #29898F;
+
+
+}
+
+/* Effet noir blanc en couleur */
+
+.container-titre:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.container-titre{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
+}
+
+.container-titre:hover  {
+
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.container-titre{
+
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+
+}
+
+/* Section Info */
+
+.separator {
+    height: 3px;
+    width: 20%;
+    border: none;
+    box-shadow: none;
+    background-color: #ea844e;
+}
+
+.separator2 {
+    height: 1px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: #d5d5d5;
+    margin-bottom: 2%;
+}
+
+aside {
+    width: 15%;
+}
+
+h4 {
+    text-align: left;
+    color: #ea844e;
+}
+
+p {
+    color: #29898F;
+}
+
