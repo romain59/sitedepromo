@@ -14,7 +14,7 @@
 </head>
 
 
-<body>
+<body onload="openModal()">
 
 <!-- HEADER -->
 
@@ -35,32 +35,21 @@
 
 <!-- POPUP -->
 
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Click Me
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">My First Bootstrap Modal</h4>
-            </div>
-            <div class="modal-body">
-                Content goes here
-            </div>
-            <div class="modal-footer">
-            </div>
+<div id="simpleModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="closeBtn">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+            <p>Bienvenue sur notre site ! </p>
+            <p>Bienvenue sur le site de la formation UP TO Fourmies ! Nous vous souhaitons bonne visite et n'hesitez pas à nous contacter pour toute demande d'informations complémentaires :) </p>
+        </div>
+        <div class="modal-footer">
+            <h3> UP TO Formation</h3>
         </div>
     </div>
 </div>
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="bootstrap.min.js"></script>
 
 
 <!-- photo de groupe -->
@@ -208,6 +197,7 @@
 </footer>
 
 <!-- SCRIPT -->
+
 <script type="text/javascript" src="responsive.js"></script>
 <script src="Accueil.js"></script>
 
