@@ -45,12 +45,15 @@ a:hover {
     margin-right: 20px;
 }
 
-.menu a:hover {
-    color: #ea844e;
+a:hover {
+    color: #ea844e !important;
 }
 
-.bouton:hover {
-    background-color: white;
+.bouton11 {
+    color: #29898F !important;
+}
+.bouton11:hover {
+    background-color: white !important;
 }
 
 .img2 {
