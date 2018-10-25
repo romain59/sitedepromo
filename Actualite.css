@@ -3,6 +3,10 @@ body {
 }
 
 
+#groupe {
+
+    width:98.2%; }
+
 .container-titre {
     height: 80vh;
     background-image: url("bannieres/newsOrange.jpg");

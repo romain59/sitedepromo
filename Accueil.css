@@ -1,14 +1,9 @@
 
-
-
-
-html {
-}
-
-
 body {
     font-family: 'Titillium Web', sans-serif;
 }
+
+/* PopUp */
 
 .modal{
     display:none;
@@ -36,6 +31,8 @@ body {
 }
 
 .modal-header{
+
+    display:inline-block;
     background:#29898F;
     padding:15px;
     color:#fff;
@@ -56,7 +53,6 @@ body {
     color:#ccc;
     float: right;
     font-size:30px;
-    color:#fff;
 }
 
 .closeBtn:hover,.closeBtn:focus{
@@ -97,6 +93,11 @@ h2 {
     text-transform: uppercase;
     text-align: center;
 
+}
+
+#groupe {
+
+    width:98.2%;
 }
 
 .container-groupe {
@@ -175,12 +176,15 @@ h2 {
 
 }
 
+/* Effet compteur */
+
 #compteur {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
+
 #compteur:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
@@ -192,6 +196,7 @@ span {
     align-items: center;
     font-weight: bold;
     color : #EA844E;
+
 
 }
 
