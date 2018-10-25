@@ -126,3 +126,13 @@ p, b {
     color: white;
 }
 
+#envoi {
+    background-color: white !important;
+    color: #29898F !important;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#boutonEnvoi{
+    margin-left: 85%;
+}
