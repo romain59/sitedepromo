@@ -4,6 +4,7 @@
     <list default="true" id="d5854dbd-a6f2-4db2-a097-dd7f926f133c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.html" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Actualité.css" beforeDir="false" afterPath="$PROJECT_DIR$/Actualite.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Actualité.html" beforeDir="false" afterPath="$PROJECT_DIR$/Actualite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Candidater.html" beforeDir="false" afterPath="$PROJECT_DIR$/Candidater.html" afterDir="false" />
@@ -12,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/Promo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Promo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Remerciements.html" beforeDir="false" afterPath="$PROJECT_DIR$/Remerciements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sitedelapromo.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedelapromo.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Candidater.html" beforeDir="false" afterPath="$PROJECT_DIR$/Candidater.html" afterDir="false" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,36 +76,47 @@
     <session id="500084961">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="671" />
-          <entry key="html" value="582" />
-          <entry key="txt" value="82" />
+          <entry key="css" value="674" />
+          <entry key="html" value="600" />
+          <entry key="txt" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="671" />
-          <entry key="HTML" value="582" />
-          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="CSS" value="674" />
+          <entry key="HTML" value="600" />
+          <entry key="PLAIN_TEXT" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
-          <entry key="html" value="3" />
+          <entry key="css" value="4" />
+          <entry key="html" value="4" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="3" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="4" />
           <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sitedepromo" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Accueil.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,6 +140,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Accueil.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#1575#1582#1" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,12 +157,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Candidater.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="273">
+              <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Candidater.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+=======
+        <entry file="file://$PROJECT_DIR$/Actualité.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Accueil.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Remerciements.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,6 +206,13 @@
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Accueil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
             </state>
           </provider>
         </entry>
@@ -178,12 +236,19 @@
         <option value="$PROJECT_DIR$/styleFooter.css" />
         <option value="$PROJECT_DIR$/promo.css" />
         <option value="$PROJECT_DIR$/Footer.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Accueil.css" />
+=======
+        <option value="$PROJECT_DIR$/Promo.html" />
+        <option value="$PROJECT_DIR$/Actualité.html" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
         <option value="$PROJECT_DIR$/Formation.css" />
         <option value="$PROJECT_DIR$/Accueil.js" />
         <option value="$PROJECT_DIR$/Remerciements.css" />
         <option value="$PROJECT_DIR$/Contacts.css" />
         <option value="$PROJECT_DIR$/Candidater.css" />
+        <option value="$PROJECT_DIR$/Accueil.css" />
+        <option value="$PROJECT_DIR$/Candidater.html" />
         <option value="$PROJECT_DIR$/Accueil.html" />
         <option value="$PROJECT_DIR$/Actualité.html" />
         <option value="$PROJECT_DIR$/Actualite.html" />
@@ -219,6 +284,11 @@
             <path>
               <item name="sitedepromo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sitedepromo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sitedepromo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sitedepromo" type="462c0819:PsiDirectoryNode" />
+              <item name="bannieres" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +337,11 @@
       <option name="presentableId" value="Default" />
       <updated>1540285192498</updated>
       <workItem from="1540285194029" duration="14745000" />
+<<<<<<< HEAD
       <workItem from="1540451628392" duration="2598000" />
+=======
+      <workItem from="1540451284656" duration="1013000" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
     </task>
     <task id="LOCAL-00001" summary="Depot 1">
       <created>1540285388511</created>
@@ -346,6 +420,7 @@
       <option name="project" value="LOCAL" />
       <updated>1540390884739</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00012" summary="Depot Modification 2">
       <created>1540452625799</created>
       <option name="number" value="00012" />
@@ -358,12 +433,37 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="33015000" />
+=======
+    <task id="LOCAL-00012" summary="Pop up final">
+      <created>1540392142582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540392142582</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Pop up v2">
+      <created>1540392762134</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540392762134</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31676000" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13688946" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,7 +524,9 @@
     <MESSAGE value="Arnaud Mercredi Aprem" />
     <MESSAGE value="Depot Modification" />
     <MESSAGE value="Depot Modification 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Depot Modification 2" />
+    <MESSAGE value="Pop up final" />
+    <MESSAGE value="Pop up v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pop up v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bootstrap.css">
@@ -465,12 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Accueil.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Candidater.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -479,6 +579,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Contacts.css">
+=======
+    <entry file="file://$PROJECT_DIR$/Remerciements.html">
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
@@ -492,6 +595,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Remerciements.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -503,6 +607,9 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Actualite.html">
+=======
+    <entry file="file://$PROJECT_DIR$/Contacts.css">
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
@@ -511,8 +618,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Accueil.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="323">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+=======
+        <state relative-caret-position="391">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
         </state>
       </provider>
     </entry>
@@ -525,8 +637,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Promo.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+=======
+        <state relative-caret-position="357">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accueil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actualité.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidater.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
         </state>
       </provider>
     </entry>
@@ -540,9 +677,16 @@
     <entry file="file://$PROJECT_DIR$/Contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
+<<<<<<< HEAD
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1575#1582#1" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
           </folding>
         </state>
       </provider>
