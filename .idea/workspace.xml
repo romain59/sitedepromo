@@ -4,7 +4,18 @@
     <list default="true" id="d5854dbd-a6f2-4db2-a097-dd7f926f133c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.html" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Actualité.css" beforeDir="false" afterPath="$PROJECT_DIR$/Actualite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actualité.html" beforeDir="false" afterPath="$PROJECT_DIR$/Actualite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Candidater.html" beforeDir="false" afterPath="$PROJECT_DIR$/Candidater.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Formation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Promo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Promo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remerciements.html" beforeDir="false" afterPath="$PROJECT_DIR$/Remerciements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitedelapromo.html" beforeDir="false" afterPath="$PROJECT_DIR$/sitedelapromo.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Candidater.html" beforeDir="false" afterPath="$PROJECT_DIR$/Candidater.html" afterDir="false" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,32 +42,33 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="12" />
-          <entry key="html" value="13" />
+          <entry key="css" value="13" />
+          <entry key="html" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="12" />
-          <entry key="HTML" value="13" />
+          <entry key="CSS" value="13" />
+          <entry key="HTML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="208" />
-          <entry key="html" value="995" />
+          <entry key="html" value="1008" />
           <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="208" />
-          <entry key="HTML" value="995" />
+          <entry key="HTML" value="1008" />
           <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
@@ -104,6 +116,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Accueil.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Formation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Promo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+=======
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Accueil.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,11 +162,18 @@
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Candidater.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+=======
         <entry file="file://$PROJECT_DIR$/Actualité.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -139,15 +183,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Remerciements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+=======
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Accueil.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
             </state>
           </provider>
         </entry>
@@ -171,18 +236,27 @@
         <option value="$PROJECT_DIR$/styleFooter.css" />
         <option value="$PROJECT_DIR$/promo.css" />
         <option value="$PROJECT_DIR$/Footer.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Accueil.css" />
+=======
         <option value="$PROJECT_DIR$/Promo.html" />
         <option value="$PROJECT_DIR$/Actualité.html" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
         <option value="$PROJECT_DIR$/Formation.css" />
         <option value="$PROJECT_DIR$/Accueil.js" />
-        <option value="$PROJECT_DIR$/Remerciements.html" />
         <option value="$PROJECT_DIR$/Remerciements.css" />
-        <option value="$PROJECT_DIR$/Contacts.html" />
         <option value="$PROJECT_DIR$/Contacts.css" />
         <option value="$PROJECT_DIR$/Candidater.css" />
         <option value="$PROJECT_DIR$/Accueil.css" />
         <option value="$PROJECT_DIR$/Candidater.html" />
         <option value="$PROJECT_DIR$/Accueil.html" />
+        <option value="$PROJECT_DIR$/Actualité.html" />
+        <option value="$PROJECT_DIR$/Actualite.html" />
+        <option value="$PROJECT_DIR$/Formation.html" />
+        <option value="$PROJECT_DIR$/Promo.html" />
+        <option value="$PROJECT_DIR$/Candidater.html" />
+        <option value="$PROJECT_DIR$/Contacts.html" />
+        <option value="$PROJECT_DIR$/Remerciements.html" />
       </list>
     </option>
   </component>
@@ -204,7 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,11 +294,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -258,7 +337,11 @@
       <option name="presentableId" value="Default" />
       <updated>1540285192498</updated>
       <workItem from="1540285194029" duration="14745000" />
+<<<<<<< HEAD
+      <workItem from="1540451628392" duration="2598000" />
+=======
       <workItem from="1540451284656" duration="1013000" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
     </task>
     <task id="LOCAL-00001" summary="Depot 1">
       <created>1540285388511</created>
@@ -337,6 +420,20 @@
       <option name="project" value="LOCAL" />
       <updated>1540390884739</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00012" summary="Depot Modification 2">
+      <created>1540452625799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540452625799</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33015000" />
+=======
     <task id="LOCAL-00012" summary="Pop up final">
       <created>1540392142582</created>
       <option name="number" value="00012" />
@@ -356,12 +453,17 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="31676000" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13688946" />
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,7 +482,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.32969153" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -451,31 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Actualité.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/promo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="true" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Promo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3879">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Formation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -489,13 +570,7 @@
     <entry file="file://$PROJECT_DIR$/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Remerciements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Candidater.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -504,28 +579,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Contacts.css">
+=======
+    <entry file="file://$PROJECT_DIR$/Remerciements.html">
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Remerciements.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Accueil.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Remerciements.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actualite.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actualite.html">
+=======
+    <entry file="file://$PROJECT_DIR$/Contacts.css">
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accueil.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="323">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+=======
+        <state relative-caret-position="391">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promo.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="340">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+=======
         <state relative-caret-position="357">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
@@ -548,17 +663,38 @@
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Accueil.html">
+    <entry file="file://$PROJECT_DIR$/Candidater.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
+<<<<<<< HEAD
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#1575#1582#1" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+>>>>>>> 334b6f19fd04c0d08222fb9d5db7dc9f38e9412b
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Remerciements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
