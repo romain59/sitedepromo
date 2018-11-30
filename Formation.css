@@ -1,5 +1,6 @@
 body {
     font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
 }
 
 #groupe {
@@ -84,6 +85,7 @@ body {
 }
 
 #text1 {
+    font-size: 1.2em;
     color: white;
 }
 
@@ -92,6 +94,7 @@ body {
 }
 
 #text2 {
+    font-size: 1.2em;
     color: white;
 }
 
@@ -100,6 +103,7 @@ body {
 }
 
 #text3{
+    font-size: 1.2em;
     color: white;
 }
 
@@ -218,9 +222,10 @@ body {
 }
 
 #text4 {
-    font-size: 17px;
+
+    font-size: 1.2em;
 }
 
 #text5 {
-    font-size: 17px;
+    font-size: 1.2em;
 }
