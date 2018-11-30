@@ -1,5 +1,6 @@
 body {
     font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
 }
 
 #groupe {
@@ -71,7 +72,7 @@ body {
     color: #29898f;
 }
 
-#CaseRemerciements {
+.CaseRemerciements {
     border: #eb905f solid;
     border-radius: 20px;
     color: #29898f;
@@ -96,7 +97,7 @@ body {
     text-decoration: underline #29898f;
 }
 
-#CaseRemerciements3 {
+.CaseRemerciements3 {
     margin-top: 5%;
     margin-bottom: 5%;
     background: #29898f;
