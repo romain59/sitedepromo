@@ -95,6 +95,22 @@ h2 {
     text-align: center;
     padding: 30px;
     color: white;
+
+}
+
+#adresse {
+    border-right: dotted white !important;
+    border-width: 1px;
+    height: 100%;
+    margin-top: 2.7% !important;
+    padding-top: 0;
+    margin-bottom: 2.7%;
+    padding-bottom: 40px;
+
+}
+
+#adresse2 {
+    padding: 30px;
 }
 
 #renseignements {
