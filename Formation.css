@@ -21,6 +21,10 @@ body {
 
 }
 
+#corriger{
+    font-size: 27%;
+}
+
 .container-groupe:hover  {
 
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
