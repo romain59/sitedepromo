@@ -98,10 +98,6 @@ a:hover {
 }
 
 
-&:hover {
-     position: relative;
-     top: -1px;
- }
 
 
 #partages {

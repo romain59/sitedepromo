@@ -172,11 +172,6 @@ p, b {
 }
 
 
-&:hover {
-     position: relative;
-     top: -1px;
- }
-
 
 #partages {
     display: flex;

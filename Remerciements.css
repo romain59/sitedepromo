@@ -147,11 +147,6 @@ h2 {
 }
 
 
-&:hover {
-     position: relative;
-     top: -1px;
- }
-
 
 #partages {
     display: flex;
