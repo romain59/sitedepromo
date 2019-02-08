@@ -141,12 +141,10 @@ if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
     require_once 'eMail.php';
     $mel = new eMail();
     $mel->nom($_POST['Nom']);
-    $mel->destinataire($_POST['emai1']);
+    $mel->destinataire($mel->expediteur());
     $mel->sujet($_POST['Objet']);
     $mel->message($_POST['msg']);
-    echo '<p align="center">';
-    echo $mel->envoi(true);
-    echo '</p>';
+    echo '<p align="center">' . $mel->envoi(true) . '</p>';
 }
 ?>
 
