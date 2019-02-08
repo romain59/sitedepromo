@@ -115,7 +115,7 @@
     </div>
 </div>
 <?php
-if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) {
+if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
 
     echo '<form class="col-sm-6" id="formulaire" method="post" action="Contacts.php">
 
