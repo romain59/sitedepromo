@@ -121,17 +121,17 @@ if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
 
     <div class="form-group">
         <label for="Nom">Nom et Prénom</label>
-            <input type="text" class="form-control" id="Nom" placeholder="Entrer ici votre nom et prénom">
+            <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Entrer ici votre nom et prénom">
         <label for="emai1">Adresse Email</label>
-            <input type="email" class="form-control" id="emai1" placeholder="Entrer ici votre adresse mail">
+            <input type="email" class="form-control" id="emai1" name="emai1" placeholder="Entrer ici votre adresse mail">
 
         <label for="Objet">Objet</label>
-            <input type="text" class="form-control" id="Objet" placeholder="Entrer ici l\'objet de votre message">
+            <input type="text" class="form-control" id="Objet" name="Objet" placeholder="Entrer ici l\'objet de votre message">
         <label for="msg" >Message</label>
-            <textarea id="msg" class="form-control" rows="3" placeholder="Entrer ici votre message"></textarea>
+            <textarea id="msg" name="msg" class="form-control" rows="3" placeholder="Entrer ici votre message"></textarea>
 
         <div class="col-sm-2" id="boutonEnvoi">
-            <button type="submit" class="btn btn-primary" id="envoi">Envoyer</button>
+            <input type="submit" class="btn btn-primary" id="envoi" value="Envoyer">
         </div>
     </div>
 
