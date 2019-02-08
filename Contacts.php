@@ -115,6 +115,7 @@
     </div>
 </div>
 <?php
+
 if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
 
     echo '<form class="col-sm-6" id="formulaire" method="post" action="Contacts.php">
@@ -141,7 +142,7 @@ if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
     $mel = new eMail();
     $mel->nom($_POST['Nom']);
     $mel->destinataire($_POST['emai1']);
-    $mel->sujet($_POST['objet']);
+    $mel->sujet($_POST['Objet']);
     $mel->message($_POST['msg']);
     echo '<p align="center">';
     echo $mel->envoi(true);
