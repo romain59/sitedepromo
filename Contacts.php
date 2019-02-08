@@ -85,6 +85,8 @@
     </nav>
 </header>
 
+
+
 <div class="container-fluid" id="groupe">
     <div class="row">
         <div class="col-lg-12 col-sm-12">
@@ -97,6 +99,13 @@
     </div>
 </div>
 
+<div id="partages">
+                <span class="twitter-share" data-js="twitter-share"><img src="image/twitter.png" height="60"
+                                                                         width="60"/></span>
+
+    <span class="facebook-share" data-js="facebook-share"><img src="image/facebook.png" height="60"
+                                                               width="60"/></span>
+</div>
 
 <div class="container mb-5">
     <div class="row">
@@ -217,6 +226,6 @@ if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
         </div>
     </div>
 </footer>
-
+<script src="contact.js"></script>
 </body>
 </html>
