@@ -139,10 +139,10 @@ if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) 
 } else {
     require_once 'eMail.php';
     $mel = new eMail();
-    $mel->nom($_POST['nom']);
-    $mel->destinataire($_POST['email']);
-    $mel->sujet($_POST['sujet']);
-    $mel->message($_POST['message']);
+    $mel->nom($_POST['Nom']);
+    $mel->destinataire($_POST['emai1']);
+    $mel->sujet($_POST['objet']);
+    $mel->message($_POST['msg']);
     echo '<p align="center">';
     echo $mel->envoi(true);
     echo '</p>';
