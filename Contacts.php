@@ -207,7 +207,7 @@ if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
                 <img id="logoFup" src="image/logo_ecn.jpg" alt="Logo Fup">
             </div>
             <div class="col-sm-2">
-                <a href="Contacts.html"><span id="contactFooter" class="btn btn-default btn-lg btn-block">Contactez-nous!</span></a>
+                <a href="#"><span id="contactFooter" class="btn btn-default btn-lg btn-block">Contactez-nous!</span></a>
             </div>
             <div class="col-sm-5">
                 <img id="logoFace" src="image/logoface.jpg" alt="Logo Face">
