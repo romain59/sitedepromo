@@ -103,7 +103,7 @@
                 <span class="twitter-share" data-js="twitter-share"><img src="image/twitter.png" height="60"
                                                                          width="60"/></span>
 
-    <span class="facebook-share" data-js="facebook-share"><img src="image/facebook.bmp" height="60"
+    <span class="facebook-share" data-js="facebook-share"><img src="image/facebook.png" height="60"
                                                                width="60"/></span>
 </div>
 
