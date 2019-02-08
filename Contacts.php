@@ -24,7 +24,8 @@
 
         <a class="navbar-brand" href="index.html"><img src="image/logo_ecn.jpg" width="150" alt="Logo"></a>
 
-        <button class="navbar-toggler" type="button" style="background-color: white" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" style="background-color: white" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
            <span id="color365" class="navbar-toggler-icon" style="color: #29898F
 
@@ -68,7 +69,7 @@
 
                 <li class="nav-item">
 
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="Contacts.html">Contacts</a>
+                    <a class="nav-link btn btn-light mr-5 bouton11" href="Contacts.php">Contacts</a>
 
                 </li>
 
@@ -76,7 +77,8 @@
 
                     <a class="nav-link btn btn-light mr-5 bouton11" href="Remerciements.html">Remerciements</a>
 
-                </li>            </ul>
+                </li>
+            </ul>
 
         </div>
 
@@ -112,8 +114,10 @@
 
     </div>
 </div>
+<?php
+if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) {
 
-<form class="col-sm-6" id="formulaire">
+    echo '<form class="col-sm-6" id="formulaire" method="post" action="Contacts.php">
 
     <div class="form-group">
         <label for="Nom">Nom et Prénom</label>
@@ -122,7 +126,7 @@
             <input type="email" class="form-control" id="emai1" placeholder="Entrer ici votre adresse mail">
 
         <label for="Objet">Objet</label>
-            <input type="text" class="form-control" id="Objet" placeholder="Entrer ici l'objet de votre message">
+            <input type="text" class="form-control" id="Objet" placeholder="Entrer ici l\'objet de votre message">
         <label for="msg" >Message</label>
             <textarea id="msg" class="form-control" rows="3" placeholder="Entrer ici votre message"></textarea>
 
@@ -131,7 +135,19 @@
         </div>
     </div>
 
-</form>
+</form>';
+} else {
+    require_once 'eMail.php';
+    $mel = new eMail();
+    $mel->nom($_POST['nom']);
+    $mel->destinataire($_POST['email']);
+    $mel->sujet($_POST['sujet']);
+    $mel->message($_POST['message']);
+    echo '<p align="center">';
+    echo $mel->envoi(true);
+    echo '</p>';
+}
+?>
 
 <hr class="separator3">
 
@@ -154,31 +170,34 @@
 
 <div class="container" id="renseignements">
 
-        <div  id="contacter" class="row justify-content-center" >
+    <div id="contacter" class="row justify-content-center">
 
-            <div id="adresse" class="col-sm-4"><h5><b>FACE Thierache</b></h5>
-                <p>Siège sociale : Face Thiérache</p>
-                <p> 2 Rue du Général Raymond Chomel</p>
-                <p> 59610 FOURMIES</p>
-                <p> Du lundi au vendredi de 9h à 17h </p>
-                <p>Tel: 03 27 57 55 17 </p>
-                <p> mail: contact@facethierache.fr</p>
-            </div>
+        <div id="adresse" class="col-sm-4"><h5><b>FACE Thierache</b></h5>
+            <p>Siège sociale : Face Thiérache</p>
+            <p> 2 Rue du Général Raymond Chomel</p>
+            <p> 59610 FOURMIES</p>
+            <p> Du lundi au vendredi de 9h à 17h </p>
+            <p>Tel: 03 27 57 55 17 </p>
+            <p> mail: contact@facethierache.fr</p>
+        </div>
 
-            <div class="col-sm-4 text-center" id="adresse2">
-                <h5><b>UP TO FOURMIES</b></h5>
-                <p>UpToFourmies </p>
-                <p> 5 rue Arlette Corrente</p>
-                <p> 59610 Fourmies</p>
-            </div>
+        <div class="col-sm-4 text-center" id="adresse2">
+            <h5><b>UP TO FOURMIES</b></h5>
+            <p>UpToFourmies </p>
+            <p> 5 rue Arlette Corrente</p>
+            <p> 59610 Fourmies</p>
+        </div>
 
-            <div id="map" class="col-sm-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.4942521083353!2d4.029901115636413!3d50.02083387941851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2747b555b139b%3A0x5a4cc7aaeb54bcc6!2s2+Rue+du+G%C3%A9n%C3%A9ral+Raymond+Chomel%2C+59610+Fourmies!5e0!3m2!1sfr!2sfr!4v1544432954053" width="300" height="300" style="border:0" allowfullscreen></iframe> </div>
+        <div id="map" class="col-sm-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.4942521083353!2d4.029901115636413!3d50.02083387941851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2747b555b139b%3A0x5a4cc7aaeb54bcc6!2s2+Rue+du+G%C3%A9n%C3%A9ral+Raymond+Chomel%2C+59610+Fourmies!5e0!3m2!1sfr!2sfr!4v1544432954053"
+                    width="300" height="300" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
+</div>
 
 <footer>
-    <div class="col-12" id="boutonRetour" >
+    <div class="col-12" id="boutonRetour">
         <a href="#retour"><img src="image/b-up.png" alt="Bouton Retour" class="boutonRetour"></a>
     </div>
     <div class="containerFooter">
