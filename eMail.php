@@ -34,25 +34,6 @@ class eMail
         return trim(filter_var($str, FILTER_SANITIZE_STRING));
     }
 
-    private function encoderPieceJointe($fichier)
-    {
-        if (!empty($fichier) && is_file($fichier)) {
-            $opFichier = fopen($fichier, 'r');
-            $attachement = fread($opFichier, filesize($fichier));
-            $attachement = chunk_split(base64_encode($attachement));
-            fclose($opFichier);
-            return $attachement;
-        } else {
-            $attachement = null;
-        }
-        return $attachement;
-    }
-
-    public function PJ($fichier)
-    {
-        $this->pieceJointe = $fichier;
-    }
-
     public function destinataire_mail()
     {
         return $this->destinataire_mail;
@@ -109,17 +90,6 @@ class eMail
         $this->body .= 'Content-Transfer-Encoding: 8bit' . self::eol();
         $this->body .= $msg . self::eol();
 
-        $fichierSeul = pathinfo($this->pieceJointe);
-        $resuktatFichierSeul = $fichierSeul['filename'] . '.' . $fichierSeul['extension'];
-
-        //PJ
-        if(isset($this->pieceJointe)) {
-            $this->body .= '--' . $separator . self::eol();
-            $this->body .= 'Content-Type: application/octet-stream; name="' . $resuktatFichierSeul . '"' . self::eol();
-            $this->body .= "Content-Transfer-Encoding: base64" . self::eol();
-            $this->body .= 'Content-Disposition: attachment; filename="' . $resuktatFichierSeul . '"' . self::eol();
-            $this->body .= self::encoderPieceJointe($this->pieceJointe) . self::eol();
-        }
         $this->body .= '--' . $separator . '--';
 
         //envoi
