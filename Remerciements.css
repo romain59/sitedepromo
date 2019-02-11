@@ -76,7 +76,8 @@ body {
     border: #eb905f solid;
     border-radius: 20px;
     color: #29898f;
-
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #img1 {
@@ -133,4 +134,21 @@ body {
 
 h2 {
     font-weight: bold !important;
+}
+
+.twitter-share, .facebook-share {
+    background: #fff;
+    color: rgb(87, 207, 244);
+    cursor: pointer;
+    display: inline-block;
+    padding: 1em 2em;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+
+#partages {
+    display: flex;
+    justify-content: flex-end;
 }

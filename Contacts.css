@@ -161,3 +161,20 @@ p, b {
     border: solid #eb905f;
     border-radius: 20px;
 }
+
+.twitter-share, .facebook-share {
+    background: #fff;
+    color: rgb(87, 207, 244);
+    cursor: pointer;
+    display: inline-block;
+    padding: 1em 2em;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+
+#partages {
+    display: flex;
+    justify-content: flex-end;
+}

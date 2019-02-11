@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="styleFooter.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="header.js"></script>
+
 </head>
 <body>
 
 <?php include "header.php";?>
 
+
+<div id="partages">
+                <span class="twitter-share" data-js="twitter-share"><img src="image/twitter.png" height="60"
+                                                                         width="60"/></span>
+
+    <span class="facebook-share" data-js="facebook-share"><img src="image/facebook.png" height="60"
+                                                               width="60"/></span>
+</div>
 
 <section class="container-fluid" id="position">
     <div class="row">
@@ -250,5 +258,6 @@
         </div>
     </div>
 </footer>
+<script src="promo.js"></script>
 </body>
 </html>

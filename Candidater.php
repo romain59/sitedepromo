@@ -10,7 +10,7 @@
     <link href="styleFooter.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="header.js"></script>
+
 </head>
 <body>
 
@@ -28,6 +28,13 @@
             </div>
         </div>
     </div>
+</div>
+<div id="partages">
+                <span class="twitter-share" data-js="twitter-share"><img src="image/twitter.png" height="60"
+                                                                         width="60"/></span>
+
+    <span class="facebook-share" data-js="facebook-share"><img src="image/facebook.png" height="60"
+                                                               width="60"/></span>
 </div>
 
 <hr class="separator mb-5">
@@ -90,6 +97,6 @@
         </div>
     </div>
 </footer>
-
+<script src="Candidater.js"></script>
 </body>
 </html>

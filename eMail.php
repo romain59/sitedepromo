@@ -1,26 +1,32 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Administrateur
+ * User: Gregory CARON
  * Date: 08/02/2019
  * Time: 14:18
  */
 
 class eMail
 {
-    private $destinataire;
-    private $sujet;
-    private $message;
-    private $nom;
+    private $destinataire_nom;
+    private $destinataire_mail;
     private $expediteur_nom;
     private $expediteur_mail;
+    private $sujet;
+    private $message;
     private $headers;
+    private $body;
     private $pieceJointe;
 
     public function __construct()
     {
-        $this->expediteur_nom = 'Simon';
-        $this->expediteur_mail = 's.stien@fondationface.org';
+        $this->destinataire_nom = 'Simon';
+        $this->destinataire_mail = 's.stien@fondationface.org';
+    }
+
+    private function eol()
+    {
+        return "\r\n";
     }
 
     private function strFiltre(string $str)
@@ -28,30 +34,24 @@ class eMail
         return trim(filter_var($str, FILTER_SANITIZE_STRING));
     }
 
-    private function encoderPieceJointe($fichier)
+    public function destinataire_mail()
     {
-        if (!empty($fichier) && is_file($fichier)) {
-            $opFichier = fopen($fichier, 'r');
-            $attachement = fread($opFichier, filesize($fichier));
-            $attachement = chunk_split(base64_encode($attachement));
-            fclose($opFichier);
-            return $attachement;
-        }
+        return $this->destinataire_mail;
     }
 
-    public function PJ($fichier)
+    public function destinataire_nom()
     {
-        $this->pieceJointe = $fichier;
+        return $this->destinataire_nom;
     }
 
-    public function destinataire(string $dest)
+    public function expediteur_nom(string $nom)
     {
-        $this->destinataire = self::strFiltre($dest);
+        $this->expediteur_nom = self::strFiltre($nom);
     }
 
-    public function nom($nom)
+    public function expediteur_mail(string $mail)
     {
-        $this->nom = self::strFiltre($nom);
+        $this->destinataire_mail = self::strFiltre($mail);
     }
 
     public function sujet(string $sujet)
@@ -68,51 +68,37 @@ class eMail
     {
         $separator = md5(time());
 
-        $eol = "\r\n";
-
         //entête
-        $headers = 'From: ' . $this->expediteur_nom . ' <' . $this->expediteur_mail . '>' . $eol;
-        $headers .= 'To: ' . $this->nom . ' <' . $this->destinataire . '>' . $eol;
-        $headers .= 'Subject: ' . $this->sujet . $eol;
-        $headers .= 'MIME-Version: 1.0' . $eol;
-        $headers .= 'Content-Type: multipart/mixed; boundary="' . $separator . '"' . $eol;
-        $headers .= 'Content-Transfer-Encoding: 7bit' . $eol;
-        $headers .= 'This is a MIME encoded message.' . $eol;
+        $this->headers = 'From: ' . $this->expediteur_nom . ' <' . $this->expediteur_mail . '>' . self::eol();
+        $this->headers .= 'To: ' . $this->destinataire_nom . ' <' . $this->destinataire_mail . '>' . self::eol();
+        $this->headers .= 'Subject: ' . $this->sujet . self::eol();
+        $this->headers .= 'MIME-Version: 1.0' . self::eol();
+        $this->headers .= 'Content-Type: multipart/mixed; boundary="' . $separator . '"' . self::eol();
+        $this->headers .= 'Content-Transfer-Encoding: 7bit' . self::eol();
+        $this->headers .= 'This is a MIME encoded message.' . self::eol();
 
         //message
-        $body = '--' . $separator . $eol;
+        $this->body = '--' . $separator . self::eol();
         if ($html === true) {
-            $body .= 'Content-type: text/html; charset="UTF-8"' . $eol;
+            $this->body .= 'Content-type: text/html; charset="UTF-8"' . self::eol();
 
             $msg = '<html lang="fr"><head><title>' . htmlentities($this->sujet) . '</title></head><body>' . nl2br($this->message) . '</body></html>';
         } else {
-            $body .= 'Content-type: text/plain; charset="UTF-8"' . $eol;
+            $this->body .= 'Content-type: text/plain; charset="UTF-8"' . self::eol();
             $msg = $this->message;
         }
-        $body .= 'Content-Transfer-Encoding: 8bit' . $eol;
-        $body .= $msg . $eol;
+        $this->body .= 'Content-Transfer-Encoding: 8bit' . self::eol();
+        $this->body .= $msg . self::eol();
 
-        $fichierSeul = pathinfo($this->pieceJointe);
-        $resuktatFichierSeul = $fichierSeul['filename'] . '.' . $fichierSeul['extension'];
-
-        //PJ
-        if(isset($this->pieceJointe)) {
-            $body .= '--' . $separator . $eol;
-            $body .= 'Content-Type: application/octet-stream; name="' . $resuktatFichierSeul . '"' . $eol;
-            $body .= "Content-Transfer-Encoding: base64" . $eol;
-            $body .= 'Content-Disposition: attachment; filename="' . $resuktatFichierSeul . '"' . $eol;
-            $body .= self::encoderPieceJointe($this->pieceJointe) . $eol;
-        }
-        $body .= '--' . $separator . '--';
+        $this->body .= '--' . $separator . '--';
 
         //envoi
-        if (!empty($this->destinataire) && !empty($this->sujet) && !empty($msg)) {
-            if (mail($this->destinataire, $this->sujet, $body, $headers)) {
+        if (!empty($this->destinataire) && !empty($this->sujet) && !empty($this->message)) {
+            if (mail($this->destinataire, $this->sujet, $this->body, $this->headers)) {
                 return 'email envoyé';
             } else {
                 print_r(error_get_last());
                 return 'Echec de l\'envoi';
-
             }
         } else {
             return 'email incomplet';

@@ -18,6 +18,8 @@
 
 <?php include "header.php";?>
 
+
+
 <div class="container-fluid" id="groupe">
     <div class="row">
         <div class="col-lg-12 col-sm-12">
@@ -30,6 +32,13 @@
     </div>
 </div>
 
+<div id="partages">
+                <span class="twitter-share" data-js="twitter-share"><img src="image/twitter.png" height="60"
+                                                                         width="60"/></span>
+
+    <span class="facebook-share" data-js="facebook-share"><img src="image/facebook.png" height="60"
+                                                               width="60"/></span>
+</div>
 
 <div class="container mb-5">
     <div class="row">
@@ -48,23 +57,24 @@
     </div>
 </div>
 <?php
-if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) {
+
+if (empty($_POST['Nom']) && empty($_POST['emai1']) && empty($_POST['msg'])) {
 
     echo '<form class="col-sm-6" id="formulaire" method="post" action="Contacts.php">
 
     <div class="form-group">
         <label for="Nom">Nom et Prénom</label>
-            <input type="text" class="form-control" id="Nom" placeholder="Entrer ici votre nom et prénom">
+            <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Entrer ici votre nom et prénom">
         <label for="emai1">Adresse Email</label>
-            <input type="email" class="form-control" id="emai1" placeholder="Entrer ici votre adresse mail">
+            <input type="email" class="form-control" id="emai1" name="emai1" placeholder="Entrer ici votre adresse mail">
 
         <label for="Objet">Objet</label>
-            <input type="text" class="form-control" id="Objet" placeholder="Entrer ici l\'objet de votre message">
+            <input type="text" class="form-control" id="Objet" name="Objet" placeholder="Entrer ici l\'objet de votre message">
         <label for="msg" >Message</label>
-            <textarea id="msg" class="form-control" rows="3" placeholder="Entrer ici votre message"></textarea>
+            <textarea id="msg" name="msg" class="form-control" rows="3" placeholder="Entrer ici votre message"></textarea>
 
         <div class="col-sm-2" id="boutonEnvoi">
-            <button type="submit" class="btn btn-primary" id="envoi">Envoyer</button>
+            <input type="submit" class="btn btn-primary" id="envoi" value="Envoyer">
         </div>
     </div>
 
@@ -72,13 +82,11 @@ if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) 
 } else {
     require_once 'eMail.php';
     $mel = new eMail();
-    $mel->nom($_POST['nom']);
-    $mel->destinataire($_POST['email']);
-    $mel->sujet($_POST['sujet']);
-    $mel->message($_POST['message']);
-    echo '<p align="center">';
-    echo $mel->envoi(true);
-    echo '</p>';
+    $mel->nom($_POST['Nom']);
+    $mel->destinataire($mel->expediteur());
+    $mel->sujet($_POST['Objet']);
+    $mel->message($_POST['msg']);
+    echo '<p align="center">' . $mel->envoi(true) . '</p>';
 }
 ?>
 
@@ -139,7 +147,7 @@ if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) 
                 <img id="logoFup" src="image/logo_ecn.jpg" alt="Logo Fup">
             </div>
             <div class="col-sm-2">
-                <a href="Contacts.html"><span id="contactFooter" class="btn btn-default btn-lg btn-block">Contactez-nous!</span></a>
+                <a href="#"><span id="contactFooter" class="btn btn-default btn-lg btn-block">Contactez-nous!</span></a>
             </div>
             <div class="col-sm-5">
                 <img id="logoFace" src="image/logoface.jpg" alt="Logo Face">
@@ -151,6 +159,6 @@ if (empty($_POST['nom']) && empty($_POST['email']) && empty($_POST['message'])) 
         </div>
     </div>
 </footer>
-
+<script src="contact.js"></script>
 </body>
 </html>
