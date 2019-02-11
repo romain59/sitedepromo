@@ -11,79 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="header.js"></script>
 </head>
+<body>
 
-
-<body> <!-- onload="openModal()" -->
-
-<!-- HEADER -->
-
-<header id="retour">
-
-    <nav class="navbar navbar-expand-lg" style="background-color: #29898F
-
-">
-
-
-        <a class="navbar-brand" href="index.html"><img src="image/logo_ecn.jpg" width="150" alt="logo face thierache"></a>
-
-        <button class="navbar-toggler" type="button" style="background-color: white" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-
-           <span id="color365" class="navbar-toggler-icon" style="color: #29898F
-
-">-</span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-
-            <ul class="nav navbar-nav ml-auto">
-
-                <li class="nav-item active">
-
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="index.html">Accueil</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link btn btn-light  mr-5 bouton11" href="Formation.html">Formation</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="Promo.html">Promotion</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="Candidater.html">Postuler</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="Actualite.html">Actualités</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="Contacts.php">Contacts</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link btn btn-light mr-5 bouton11" href="Remerciements.html">Remerciements</a>
-
-                </li>            </ul>
-
-        </div>
-    </nav>
-</header>
+<?php include "header.php";?>
 
 
 <!--<div id="simpleModal" class="modal">

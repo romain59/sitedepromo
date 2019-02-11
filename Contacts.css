@@ -43,6 +43,7 @@ h2 {
     font-size : 300%;
     color : white;
     margin-bottom : 3%;
+    z-index: 0;
 }
 
 

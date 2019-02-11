@@ -15,7 +15,7 @@
 
 ">
 
-        <a class="navbar-brand" href="index.html"><img src="image/logoface.jpg" width="150px" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img src="image/logoface.jpg" width="150px" alt=""></a>
 
         <button class="navbar-toggler" type="button" style="background-color: white" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -31,31 +31,31 @@
 
                 <li class="nav-item active">
 
-                    <a class="nav-link btn btn-light mr-5" href="index.html">Accueil</a>
+                    <a class="nav-link btn btn-light mr-5" href="index.php">Accueil</a>
 
                 </li>
 
                 <li class="nav-item">
 
-                    <a class="nav-link btn btn-light  mr-5" href="Formation.html">Formation</a>
+                    <a class="nav-link btn btn-light  mr-5" href="Formation.php">Formation</a>
 
                 </li>
 
                 <li class="nav-item">
 
-                    <a class="nav-link btn btn-light mr-5" href="Promo.html">Promotion</a>
+                    <a class="nav-link btn btn-light mr-5" href="Promo.php">Promotion</a>
 
                 </li>
 
                 <li class="nav-item">
 
-                    <a class="nav-link btn btn-light mr-5" href="Candidater.html">Postuler</a>
+                    <a class="nav-link btn btn-light mr-5" href="Candidater.php">Postuler</a>
 
                 </li>
 
                 <li class="nav-item">
 
-                    <a class="nav-link btn btn-light mr-5" href="Actualite.html">Actualités</a>
+                    <a class="nav-link btn btn-light mr-5" href="Actualite.php">Actualités</a>
 
                 </li>
 
@@ -67,7 +67,7 @@
 
                 <li class="nav-item">
 
-                    <a class="nav-link btn btn-light mr-5" href="Remerciements.html">Remerciements</a>
+                    <a class="nav-link btn btn-light mr-5" href="Remerciements.php">Remerciements</a>
 
                 </li>            </ul>
 

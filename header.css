@@ -1,0 +1,13 @@
+.hamburger{
+    width: 100%;
+ position: absolute;
+list-style-type: none;
+    display: none;
+    z-index: 2;
+}
+
+.hamburger:focus{
+
+    display: block;
+    z-index: 2;
+}
